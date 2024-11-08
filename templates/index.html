@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Průměrná délka dožití</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Průměrná délka dožití</h1>
+
+      <div id="language-switcher">
+        <button onclick="changeLanguage('cs')">Čeština</button>
+        <button onclick="changeLanguage('en')">English</button>
+        <button onclick="changeLanguage('ru')">Русский</button>
+      </div>
+
+      <form id="lifeForm">
+        <label for="age" id="label-age">Kolik je ti let?</label>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          required
+          min="0"
+          max="150"
+          placeholder="Zadej svůj věk"
+        />
+
+        <label for="life-expectancy" id="label-life-expectancy"
+          >Průměrná délka dožití:</label
+        >
+        <input
+          type="number"
+          id="life-expectancy"
+          name="life-expectancy"
+          value="90"
+          min="0"
+          max="150"
+        />
+
+        <button type="submit" id="button-calculate">Spočítat</button>
+      </form>
+
+      <div id="result"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+  </body>
+</html>

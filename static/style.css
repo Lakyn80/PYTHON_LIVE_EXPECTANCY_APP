@@ -1,0 +1,127 @@
+/* Reset základních stylů */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Celá stránka */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Kontejner pro obsah */
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Nadpis */
+h1 {
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  color: #0072ff;
+}
+
+/* Přepínač jazyků */
+#language-switcher {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#language-switcher button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #4a27d6;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+#language-switcher button:hover {
+  background-color: #e48f18;
+}
+
+/* Formulář */
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #0072ff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Tlačítko */
+button[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #24af70;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #005bb5;
+}
+
+/* Výsledky */
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+/* Rámeček pro vstupní pole */
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #0072ff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+/* Styl pro průměrnou délku dožití */
+#life-expectancy {
+  border: 2px solid #0072ff;
+  background-color: #f0f8ff;
+  color: #333;
+}
+
+/* Přidáme trochu odsazení pro lepší čitelnost */
+#label-life-expectancy {
+  margin-top: 10px;
+  font-weight: bold;
+}

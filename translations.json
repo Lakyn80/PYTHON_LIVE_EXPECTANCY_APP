@@ -1,0 +1,26 @@
+{
+  "cs": {
+    "title": "Průměrná délka dožití",
+    "label_age": "Kolik je ti let?",
+    "button_calculate": "Spočítat",
+    "placeholder_age": "Zadej svůj věk",
+    "label_life_expectancy": "Průměrná délka dožití:",
+    "result_message": "Do konce života ti zbývá {remain} let, {months} měsíců, {weeks} týdnů a {days} dnů."
+  },
+  "en": {
+    "title": "Average Life Expectancy",
+    "label_age": "How old are you?",
+    "button_calculate": "Calculate",
+    "placeholder_age": "Enter your age",
+    "label_life_expectancy": "Average Life Expectancy:",
+    "result_message": "You have {remain} years, {months} months, {weeks} weeks, and {days} days left to live."
+  },
+  "ru": {
+    "title": "Средняя продолжительность жизни",
+    "label_age": "Сколько вам лет?",
+    "button_calculate": "Рассчитать",
+    "placeholder_age": "Введите ваш возраст",
+    "label_life_expectancy": "Средняя продолжительность жизни:",
+    "result_message": "Вам осталось жить {remain} лет, {months} месяцев, {weeks} недель и {days} дней."
+  }
+}
