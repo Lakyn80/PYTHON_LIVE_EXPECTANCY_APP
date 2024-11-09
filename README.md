@@ -674,3 +674,4 @@ window.addEventListener("load", ...): Tato část kódu se provede, jakmile se s
 Zavolá funkci changeLanguage("cs"), která nastaví výchozí jazyk na češtinu.
 
 
+# https-github.com-Lakyn80-PYTHON_LIVE_EXPECTANCY_APP
