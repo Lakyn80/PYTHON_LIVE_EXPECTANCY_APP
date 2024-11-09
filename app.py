@@ -39,3 +39,5 @@ def get_translations():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
